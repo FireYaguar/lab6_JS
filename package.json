@@ -1,0 +1,28 @@
+{
+  "name": "spacefight",
+  "private": true,
+  "version": "0.6.0",
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build -w client",
+    "start": "npm start -w server",
+    "typecheck": "tsc -p shared && tsc -p shared/test && tsc -p server && tsc -p client && tsc -p client/tsconfig.node.json",
+    "test": "npm test -w shared && npm test -w server",
+    "lint": "biome check .",
+    "format": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.4",
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  }
+}

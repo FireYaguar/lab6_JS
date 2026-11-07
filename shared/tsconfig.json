@@ -1,0 +1,6 @@
+{
+  // Симуляція і протокол: лише мова. Ні DOM, ні типів Node — компілятор не дасть їх використати.
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": { "lib": ["ES2023"], "types": [] },
+  "include": ["src"]
+}

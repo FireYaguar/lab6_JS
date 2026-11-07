@@ -1,0 +1,67 @@
+{
+  "image": "sprites.png",
+  "scale": 0.5,
+  "asteroidRadiusPx": 44,
+  "frames": {
+    "ship_player": {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 64
+    },
+    "ship_enemy": {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 64
+    },
+    "bullet": {
+      "x": 160,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "bullet_homing": {
+      "x": 176,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "asteroid_0": {
+      "x": 0,
+      "y": 64,
+      "w": 96,
+      "h": 96
+    },
+    "asteroid_1": {
+      "x": 96,
+      "y": 64,
+      "w": 96,
+      "h": 96
+    },
+    "asteroid_2": {
+      "x": 192,
+      "y": 64,
+      "w": 96,
+      "h": 96
+    },
+    "pickup_shield": {
+      "x": 0,
+      "y": 160,
+      "w": 48,
+      "h": 48
+    },
+    "pickup_rapid": {
+      "x": 48,
+      "y": 160,
+      "w": 48,
+      "h": 48
+    },
+    "pickup_homing": {
+      "x": 96,
+      "y": 160,
+      "w": 48,
+      "h": 48
+    }
+  }
+}

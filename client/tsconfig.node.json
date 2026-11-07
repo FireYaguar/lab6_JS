@@ -1,0 +1,6 @@
+{
+  // vite.config.ts виконується в Node, а не в браузері
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": { "lib": ["ES2023"], "types": ["node"] },
+  "include": ["vite.config.ts"]
+}

@@ -1,0 +1,12 @@
+{
+  "sprites": {
+    "atlas": "assets/sprites.json",
+    "image": "assets/sprites.png"
+  },
+  "sounds": {
+    "shoot": "assets/sounds/shoot.wav",
+    "hit": "assets/sounds/hit.wav",
+    "explode": "assets/sounds/explode.wav",
+    "pickup": "assets/sounds/pickup.wav"
+  }
+}
